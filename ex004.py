@@ -5,7 +5,10 @@
 
 something = input('Type something: ')
 
-print('value -> {}' .format(something))
-print(type(something))
-print('is numeric {}' .format(something.isnumeric()))
-print('is alpha {}' .format(something.isalpha()))
+print('which type primitive value? {}' .format(type(something)))
+print('only have space? {}' .format(something.isspace()))
+print('is a number? {}' .format(something.isdecimal()))
+print('is a alphanumeric? {}' .format(something.isnumeric()))
+print('is a alpha? {}' .format(something.isalpha()))
+print('is all upercase? {}' .format(something.isupper()))
+print('is all lowercase? {}' .format(something.islower()))
