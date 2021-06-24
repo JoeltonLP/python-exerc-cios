@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # Faca um programa que leia algo pelo teclado e mostre na tela o seu tipo
-#primitivo e todas as informacoespossiveis sobre ele.
+#primitivo e todas as informacoes possiveis sobre ele.
 
 something = input('Type something: ')
 
