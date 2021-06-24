@@ -7,4 +7,5 @@ something = input('Type something: ')
 
 print('value -> {}' .format(something))
 print(type(something))
-print('amount of caracter -> {}' .format(len(something)))
+print('is numeric {}' .format(something.isnumeric()))
+print('is alpha {}' .format(something.isalpha()))
