@@ -7,9 +7,9 @@ measure = float(input('measure in meter: '))
 
 meter = measure
 centimeter = meter * 100
-milimeter = centimeter * 100
+milimeter = centimeter * (100 /10)
 
-print('m:{:.1f}\nct:{}\nml:{}' .format(meter, centimeter, milimeter))
+print('m:{:.1f}\ncm:{}\nmm:{}' .format(meter, centimeter, milimeter))
 
 
 
